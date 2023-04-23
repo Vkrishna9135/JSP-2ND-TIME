@@ -1,0 +1,15 @@
+package org.jsp.collection;
+import java.util.*;
+public class Arraylist_Example1 {
+	public static void main(String[] args) {
+		ArrayList<String> al=new ArrayList<String>();
+		al.add("mango");
+		al.add("apple");
+		al.add("grapes");
+		al.add("Banana");
+		al.add("orange");
+		al.add("sweet-lemon");
+		System.out.println(al);
+	}
+
+}

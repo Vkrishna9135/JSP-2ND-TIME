@@ -1,0 +1,46 @@
+package org.jsp.collection;
+import java.util.*;
+public class Collection_Demo {
+	public static void main(String[] args) {
+		Collection<String> cs=new ArrayList<String>();
+		cs.add("krishna");
+		cs.add("rakesh");
+		cs.add("Alex");
+		cs.add("edward");
+		Collection<String> ds=new ArrayList<String>();
+		ds.add("Amazan");
+		ds.add("FlipKart");
+		ds.add("shipefy");
+		ds.add("demart");
+		
+		Collection<String> es=new ArrayList<String>();
+		es.add("ys jagan mohan reddy");
+		es.add("chandhra babu naidu");
+		es.add("pavan kalyan");
+		es.add("K A paul");
+		Collection<String> alls=new ArrayList<String>();
+		alls.addAll(cs);
+		alls.addAll(ds);
+		alls.addAll(es);
+		System.out.println(alls);
+		System.out.println(cs);
+		System.out.println(ds);
+		System.out.println(es);
+		System.out.println(alls.size());
+		System.out.println(alls.isEmpty());
+		alls.remove("krishna");
+		alls.removeAll(cs);
+		alls.contains(ds);
+		alls.clear();
+		System.out.println(es.contains("rakesh"));
+		Object[] arr=alls.toArray();
+		System.out.println(alls.toArray());
+		
+		
+		
+		
+		
+		
+	}
+
+}

@@ -1,0 +1,33 @@
+package org.jsp.collection;
+
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.ObjectOutputStream;
+
+public class Persist {
+	public static void main(String[] args) {
+		Employee emp1=new Employee(101, "krishna ");
+		Employee emp2=new Employee(102, "gayathri ");
+		Employee emp3=new Employee(103, "chanakya");
+		Employee emp4=new Employee(104, "uday kiran");
+		
+		try {
+			FileOutputStream fos=new FileOutputStream("E:\\output.txt");
+			ObjectOutputStream out=new ObjectOutputStream(fos);
+			out.writeObject(emp1);
+			out.writeObject(emp2);
+			out.writeObject(emp3);
+			out.writeObject(emp4);
+			out.flush();
+			out.close();
+			System.out.println("serilization & desewrialization is succesfull");
+		} catch (IOException e) {
+			
+			
+			e.printStackTrace();
+		}
+		
+		
+	}
+
+}

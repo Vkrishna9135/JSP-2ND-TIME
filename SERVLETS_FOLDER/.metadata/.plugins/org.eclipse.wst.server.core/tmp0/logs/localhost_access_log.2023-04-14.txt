@@ -1,0 +1,9 @@
+127.0.0.1 - - [14/Apr/2023:12:39:52 +0530] "GET / HTTP/1.1" 404 752
+0:0:0:0:0:0:0:1 - - [14/Apr/2023:12:39:54 +0530] "GET /Login_RegUser/Login.html HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [14/Apr/2023:12:39:54 +0530] "GET /favicon.ico HTTP/1.1" 404 763
+0:0:0:0:0:0:0:1 - - [14/Apr/2023:12:40:07 +0530] "GET /Login_RegUser/fs?unm=Vkrishna9135&pw=Vkrishna%40123 HTTP/1.1" 200 96
+0:0:0:0:0:0:0:1 - - [14/Apr/2023:12:42:35 +0530] "GET /Register_Loginvalidation/Registeration.html HTTP/1.1" 200 1356
+0:0:0:0:0:0:0:1 - - [14/Apr/2023:12:44:04 +0530] "POST /Register_Loginvalidation/fs HTTP/1.1" 200 97
+0:0:0:0:0:0:0:1 - - [14/Apr/2023:12:46:06 +0530] "GET /Login_RegUser/fs?unm=Pavan123&pw=Pavan%40123 HTTP/1.1" 200 92
+0:0:0:0:0:0:0:1 - - [14/Apr/2023:13:40:02 +0530] "GET /Login_RegUser/fs?unm=Pavan123&pw=Pavan%40123 HTTP/1.1" 200 92
+0:0:0:0:0:0:0:1 - - [14/Apr/2023:13:40:03 +0530] "GET /Login_RegUser/fs?unm=Pavan123&pw=Pavan%40123 HTTP/1.1" 200 92

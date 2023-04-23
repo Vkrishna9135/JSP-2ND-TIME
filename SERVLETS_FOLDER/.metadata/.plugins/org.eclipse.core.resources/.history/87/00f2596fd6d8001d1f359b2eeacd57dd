@@ -1,0 +1,38 @@
+package org.jsp.RegServlet;
+
+import java.io.IOException;
+import java.io.PrintWriter;
+import java.sql.Connection;
+
+import jakarta.servlet.ServletException;
+import jakarta.servlet.http.HttpServlet;
+import jakarta.servlet.http.HttpServletRequest;
+import jakarta.servlet.http.HttpServletResponse;
+
+public class RegServlet extends HttpServlet{
+	@Override
+	protected void doPost(HttpServletRequest req, HttpServletResponse resp)
+			throws ServletException, IOException {
+		String ssno=req.getParameter("sm");
+		int sno=Integer.parseInt(ssno);
+		String name=req.getParameter("nm");
+		String uname=req.getParameter("unm");
+		String email=req.getParameter("eml");
+		String password=req.getParameter("pw");
+		String scontactno=req.getParameter("cn");
+		long contactno=Long.parseLong(scontactno);
+		
+		PrintWriter out=resp.getWriter();
+		out.println("<html><body bgcolor='orange'>"
+				+ "<h1> Registeration Details inserted succesfully</h1>"
+				+ "</body></html>");
+		out.close();
+		
+		// persistance logic.........
+		Connection
+		
+		
+		
+	}
+
+}

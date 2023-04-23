@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<servers>
+  <server auto-publish-setting="2" auto-publish-time="1" configuration-id="/Servers/Tomcat v10.0 Server at localhost-config" deployDir="wtpwebapps" hostname="localhost" id="Tomcat v10.0 Server at localhost" name="Tomcat v10.0 Server at localhost" runtime-id="Apache Tomcat v10.0" server-type="org.eclipse.jst.server.tomcat.100" server-type-id="org.eclipse.jst.server.tomcat.100" start-timeout="60" stop-timeout="15" testEnvironment="true" timestamp="13">
+    <list key="modules" value0="UI_project::org.eclipse.jst.jee.server:UI_project::jst.web::3.0" value1="UI_GenericServApp::org.eclipse.jst.jee.server:UI_GenericServApp::jst.web::3.0" value2="RegisterServlet::org.eclipse.jst.jee.server:RegisterServlet::jst.web::3.0" value3="Ui_FormProj::org.eclipse.jst.jee.server:Ui_FormProj::jst.web::5.0" value4="Load_On_Startu::org.eclipse.jst.jee.server:Load_On_Startu::jst.web::3.0" value5="Load_ON_Server::org.eclipse.jst.jee.server:Load_ON_Server::jst.web::3.0" value6="HttpServlet_Project1::org.eclipse.jst.jee.server:HttpServlet_Project1::jst.web::5.0" value7="Register_Loginvalidation::org.eclipse.jst.jee.server:Register_Loginvalidation::jst.web::3.0" value8="Login_RegUser::org.eclipse.jst.jee.server:Login_RegUser::jst.web::3.0"/>
+  </server>
+</servers>

@@ -1,0 +1,10 @@
+
+public class Static {
+
+   static
+   {
+	  System.out.println("Krishna teaches well...."); 
+   }
+  
+
+}

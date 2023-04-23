@@ -1,0 +1,25 @@
+package org.jsp.collection;
+import java.util.*;
+public class Collection_Demo {
+	public static void main(String[] args) {
+		Collection<String> cs=new ArrayList<String>();
+		cs.add("krishna");
+		cs.add("rakesh");
+		cs.add("Alex");
+		cs.add("edward");
+		Collection<String> ds=new ArrayList<String>();
+		ds.add("Amazan");
+		ds.add("FlipKart");
+		ds.add("shipefy");
+		ds.add("demart");
+		
+		Collection<String> es=new ArrayList<String>();
+		es.add("ys jagan mohan reddy");
+		es.add("chandhra babu naidu");
+		es.add("pavan kalyan");
+		es.add("K A paul");
+		
+		
+	}
+
+}

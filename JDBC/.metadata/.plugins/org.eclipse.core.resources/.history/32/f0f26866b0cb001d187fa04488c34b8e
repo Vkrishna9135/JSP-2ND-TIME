@@ -1,0 +1,24 @@
+package org.jsp;
+import java.sql.*;
+public class step_2 {
+		static final String DB_URL = "jdbc:mysql://localhost:3306/btm";
+	    static final String USER = "root";
+	    static final String PASS = "Admin@123";
+	    static final String QUERY = "insert into btm.employee values(101,'krishna','Tcs',12000);";
+
+	   public static void main(String[] args) {
+	      try(
+	    	//class.("con.mysql.cj.jdbc.Driver");
+	    		  Connection con=DriverManager.getConnection("jdbc:mysql://localhost:3306/btm","root","Admin@123");  
+	         Statement stmt = con.createStatement();
+	    		  
+	         ResultSet rs = stmt.executeQuery(QUERY);) {
+	  
+	      
+	         }
+	      } catch(SQLException| ClassNotFoundException e) {
+	         e.printStackTrace();
+	      } 
+	   }
+	
+

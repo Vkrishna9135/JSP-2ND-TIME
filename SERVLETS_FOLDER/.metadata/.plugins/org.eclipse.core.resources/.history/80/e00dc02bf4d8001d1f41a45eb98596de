@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+<body bgcolor='cyan'>
+<div>
+        <form action="fs" method="post">
+            <table>
+                <h1>Registeration form</h1>
+                
+               
+               
+               <tr>
+                <td><label for="">Name :</label></td>
+                <td><input type="text" name="nm"></td>
+               </tr><br>
+               
+               <tr>
+                <td><label for="">UserName :</label></td>
+                <td><input type="text" name="unm"></td>
+               </tr>
+
+               <tr>
+                <td><label for="">Email :</label></td>
+                <td><input type="text" name="eml"></td>
+               </tr>
+                
+               <tr>
+                <td><label for="">Password :</label></td>
+                <td><input type="text" name="pw"></td>
+               </tr>
+
+               
+               
+               <tr><td><input type="submit" value="Post"></td>
+               </tr>
+
+            </table>
+        </form>
+
+    </div>
+
+</body>
+</html>

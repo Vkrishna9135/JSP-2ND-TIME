@@ -1,0 +1,9 @@
+
+public class Static {
+
+   static void Teach()
+   {
+	  System.out.println("Krishna teaches well...."); 
+   }
+
+}

@@ -1,0 +1,23 @@
+package ProgrammingRangeOfNumber;
+import java.util.*;
+public class ProgTablesofRange {
+	static int printTable(int n) {
+		for(int j=1;j<=n;j++) {
+		int tab=1;
+			for(int i=1;i<=10;i++) {
+			tab=j*i;
+			
+			
+		}System.out.println(j+"*"+i+"= "+tab);
+			}
+	}
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		int n=sc.nextInt();
+		
+		
+		
+		}
+		}
+
+

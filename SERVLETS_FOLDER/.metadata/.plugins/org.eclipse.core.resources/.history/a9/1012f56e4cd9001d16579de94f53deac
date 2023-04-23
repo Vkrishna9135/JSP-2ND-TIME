@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+<body bgcolor='pink'>
+<table>
+<tr><td><label>UserName :</label></td>
+<td><input type="text" name="unm"></td></tr>
+
+
+<tr><td><label>Password :</label></td>
+<td><input type="text" name="pw"></td></tr>
+
+
+
+
+
+</table>
+</body>
+</html>
